@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
     <!-- Audio Player (Hidden but plays on load) -->
@@ -292,24 +294,51 @@
                     
                     <div class="contact-details">
                         <div class="contact-item">
-                            <span class="contact-label">EMAIL</span>
-                            <a href="/cdn-cgi/l/email-protection#e98b86868280878e9aa98d838788848cc78a8684"><span class="__cf_email__" data-cfemail="a5c7cacacecccbc2d6e5c1cfcbc4c8c08bc6cac8">[email&#160;protected]</span></a>
+                            <div class="contact-icon">
+                                <i data-lucide="mail"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span class="contact-label">EMAIL</span>
+                                <a href="mailto:bookings@djname.com">bookings@djname.com</a>
+                            </div>
                         </div>
                         <div class="contact-item">
-                            <span class="contact-label">PHONE</span>
-                            <a href="tel:+306912345678">+30 691 234 5678</a>
+                            <div class="contact-icon">
+                                <i data-lucide="phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span class="contact-label">PHONE</span>
+                                <a href="tel:+306912345678">+30 691 234 5678</a>
+                            </div>
                         </div>
                         <div class="contact-item">
-                            <span class="contact-label">LOCATION</span>
-                            <span>Athens, Greece</span>
+                            <div class="contact-icon">
+                                <i data-lucide="map-pin"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span class="contact-label">LOCATION</span>
+                                <span>Athens, Greece</span>
+                            </div>
                         </div>
                     </div>
                     
                     <div class="social-links">
-                        <a href="https://facebook.com" target="_blank" class="social-link">FACEBOOK</a>
-                        <a href="https://instagram.com" target="_blank" class="social-link">INSTAGRAM</a>
-                        <a href="https://soundcloud.com" target="_blank" class="social-link">SOUNDCLOUD</a>
-                        <a href="https://youtube.com" target="_blank" class="social-link">YOUTUBE</a>
+                        <a href="https://facebook.com" target="_blank" class="social-link">
+                            <i data-lucide="facebook"></i>
+                            <span>FACEBOOK</span>
+                        </a>
+                        <a href="https://instagram.com" target="_blank" class="social-link">
+                            <i data-lucide="instagram"></i>
+                            <span>INSTAGRAM</span>
+                        </a>
+                        <a href="https://soundcloud.com" target="_blank" class="social-link">
+                            <i data-lucide="music"></i>
+                            <span>SOUNDCLOUD</span>
+                        </a>
+                        <a href="https://youtube.com" target="_blank" class="social-link">
+                            <i data-lucide="youtube"></i>
+                            <span>YOUTUBE</span>
+                        </a>
                     </div>
                 </div>
                 
@@ -333,5 +362,9 @@
     </footer>
 
     <script src="script.js"></script>
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+    </script>
 </body>
 </html>

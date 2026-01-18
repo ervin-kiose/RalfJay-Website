@@ -363,6 +363,14 @@ section {
     transition: transform 0.3s ease;
 }
 
+.flag-img {
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
 .lang-btn::before {
     content: '';
     position: absolute;
@@ -387,6 +395,10 @@ section {
 }
 
 .lang-btn:hover .flag {
+    transform: scale(1.1);
+}
+
+.lang-btn:hover .flag-img {
     transform: scale(1.1);
 }
 
@@ -831,6 +843,11 @@ section {
         font-size: 26px;
     }
     
+    .flag-img {
+        width: 30px;
+        height: 30px;
+    }
+    
     .events-grid {
         grid-template-columns: 1fr;
     }
@@ -864,5 +881,10 @@ section {
     
     .lang-btn .flag {
         font-size: 24px;
+    }
+    
+    .flag-img {
+        width: 28px;
+        height: 28px;
     }
 }

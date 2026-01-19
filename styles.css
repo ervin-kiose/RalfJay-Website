@@ -53,7 +53,7 @@ html {
 .nav-container {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 12px 40px;
+    padding: 15px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -74,9 +74,9 @@ html {
 }
 
 .logo-image {
-    height: 40px;
+    height: 55px;
     width: auto;
-    max-width: 180px;
+    max-width: 220px;
     object-fit: contain;
     transition: transform 0.3s ease;
 }
@@ -123,12 +123,12 @@ html {
 /* Hero Section */
 .hero {
     position: relative;
-    height: calc(100vh - 64px);
+    height: calc(100vh - 85px);
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    margin-top: 64px;
+    margin-top: 85px;
 }
 
 .slideshow-container {
@@ -706,7 +706,7 @@ html {
 .footer-social {
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 20px;
     margin-bottom: 15px;
     flex-wrap: wrap;
 }
@@ -715,8 +715,8 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
     background: rgba(255, 255, 255, 0.05);
     border: 2px solid rgba(255, 255, 255, 0.1);
     border-radius: 50%;
@@ -727,8 +727,8 @@ html {
 
 .footer-social-icon svg,
 .footer-social-icon i {
-    width: 18px;
-    height: 18px;
+    width: 22px;
+    height: 22px;
 }
 
 .footer-social-icon:hover {
@@ -814,8 +814,8 @@ html {
     }
 
     .logo-image {
-        height: 35px;
-        max-width: 140px;
+        height: 45px;
+        max-width: 170px;
     }
     
     .hero-title {

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Ralf Jay</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="https://github.com/ervin-kiose/RalfJ-Website/blob/main/images/favicon-32x32.png?raw=true">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://github.com/ervin-kiose/RalfJ-Website/blob/main/images/favicon-16x16.png?raw=true">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://github.com/ervin-kiose/RalfJ-Website/blob/main/images/apple-touch-icon.png?raw=true">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="https://github.com/ervin-kiose/RalfJ-Website/blob/main/images/Logo1-Jpeg-02.jpg?raw=true" alt="Ralf Jay" class="logo-image">
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">HOME</a></li>
+                <li><a href="biography.html" class="nav-link">BIOGRAPHY</a></li>
+                <li><a href="spotify.html" class="nav-link active">SPOTIFY</a></li>
+                <li><a href="events.html" class="nav-link">EVENTS</a></li>
+                <li><a href="contact.html" class="nav-link">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Spotify Section -->
+    <section class="spotify page-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">02</span>
+                <h2 class="section-title">SPOTIFY</h2>
+            </div>
+            
+            <div class="spotify-content">
+                <p class="spotify-description">
+                    Listen to my latest tracks and mixes on Spotify. Follow for exclusive releases and curated playlists.
+                </p>
+                
+                <!-- Ralf Jay Spotify Embed -->
+                <div class="spotify-embed">
+                    <iframe style="border-radius:12px" 
+                            src="https://open.spotify.com/embed/artist/0VPjoHRGyaRZboop09IXBq?utm_source=generator" 
+                            width="100%" 
+                            height="380" 
+                            frameBorder="0" 
+                            allowfullscreen="" 
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                            loading="lazy">
+                    </iframe>
+                </div>
+                
+                <a href="https://open.spotify.com/artist/0VPjoHRGyaRZboop09IXBq" target="_blank" class="btn btn-primary">
+                    FOLLOW ON SPOTIFY
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Ralf Jay. All rights reserved.</p>
+            <p>Designed for Professional Entertainment</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        if (typeof lucide !== 'undefined') {
+            lucide.createIcons();
+        }
+    </script>
+</body>
+</html>

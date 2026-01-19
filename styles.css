@@ -92,13 +92,16 @@ html {
 }
 
 .nav-link {
-    color: var(--text-light);
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
     letter-spacing: 2px;
     position: relative;
     transition: all 0.3s ease;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .nav-link::after {
@@ -108,7 +111,7 @@ html {
     left: 0;
     width: 0;
     height: 2px;
-    background: var(--primary-color);
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     transition: width 0.3s ease;
 }
 
@@ -172,6 +175,18 @@ html {
     z-index: 2;
     text-align: center;
     padding: 0 20px;
+}
+
+.hero-logo {
+    margin-bottom: 30px;
+    animation: fadeInUp 0.8s ease-out 0.2s backwards;
+}
+
+.hero-logo-image {
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+    filter: drop-shadow(0 0 30px rgba(255, 0, 128, 0.3));
 }
 
 .hero-title {
@@ -696,6 +711,14 @@ html {
     padding: 60px 0 40px;
     text-align: center;
     border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.footer-social-title {
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+    color: var(--text-light);
+    font-weight: 600;
 }
 
 .footer-social {

@@ -49,38 +49,8 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// Contact form submission (on contact page)
-if (document.getElementById('contactForm')) {
-    const contactForm = document.getElementById('contactForm');
-
-    contactForm.addEventListener('submit', (e) => {
-        e.preventDefault();
-        
-        // Get form data
-        const formData = new FormData(contactForm);
-        const formObject = {};
-        formData.forEach((value, key) => {
-            formObject[key] = value;
-        });
-        
-        // Show success message
-        alert('Thank you for your message! We will get back to you soon.');
-        
-        // Reset form
-        contactForm.reset();
-        
-        // In a real implementation, you would send data to a server:
-        // fetch('/api/contact', {
-        //     method: 'POST',
-        //     headers: { 'Content-Type': 'application/json' },
-        //     body: JSON.stringify(formObject)
-        // }).then(response => response.json())
-        //   .then(data => {
-        //       alert('Message sent successfully!');
-        //       contactForm.reset();
-        //   });
-    });
-}
+// Contact form submission is handled by FormSubmit
+// Form submits directly to FormSubmit.co - no custom JavaScript needed
 
 // Scroll animations
 const observerOptions = {

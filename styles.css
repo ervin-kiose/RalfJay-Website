@@ -399,6 +399,10 @@ body .contact-form {
     text-align: center;
 }
 
+.contact .bio-logo {
+    opacity: 0.15;
+}
+
 .page-section > .container {
     position: relative;
     z-index: 1;
@@ -840,7 +844,7 @@ body .contact-form {
 
 /* Footer */
 .footer {
-    background: var(--darker-bg);
+    background: rgba(5, 5, 5, 0.7);
     padding: 6px 0 4px;
     text-align: center;
     border-top: 1px solid rgba(255, 255, 255, 0.05);

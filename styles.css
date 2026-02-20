@@ -55,12 +55,9 @@ body.home-page .navbar {
 
 body.home-page .hero {
     flex: 1;
-    height: auto;
+    height: 100vh;
+    min-height: 100vh;
     margin-top: 0;
-}
-
-body.home-page .hero {
-    flex: 1;
 }
 
 body.home-page .footer {
@@ -1057,6 +1054,11 @@ body .contact-form {
     
     .page-section {
         padding: 100px 0 40px;
+    }
+
+    .hero-video {
+        object-fit: contain;
+        background: #000;
     }
 }
 

@@ -51,6 +51,15 @@ body.home-page .footer {
 }
 
 /* Spotify page */
+body.spotify-page .page-section {
+    padding-top: 80px;
+    padding-bottom: 15px;
+}
+
+body.spotify-page .spotify-description {
+    margin-bottom: 15px;
+}
+
 body.spotify-page .spotify-content .btn {
     padding: 12px 30px;
     font-size: 13px;

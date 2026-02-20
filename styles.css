@@ -998,16 +998,17 @@ body .contact-form {
 
     body.spotify-page .spotify-description {
         font-size: 14px;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
     }
 
     body.spotify-page .spotify-embed {
-        margin-bottom: 10px;
+        margin-bottom: 5px;
     }
 
     body.spotify-page .spotify-content .btn {
-        padding: 10px 25px;
+        padding: 8px 20px;
         font-size: 12px;
+        margin-bottom: 0;
     }
 
     .hero-title {

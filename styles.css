@@ -1057,10 +1057,11 @@ body .contact-form {
     }
 
     .hero-video {
-        width: 150%;
-        height: 150%;
-        top: -25%;
-        left: -25%;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        object-fit: contain;
     }
 
     body.home-page {

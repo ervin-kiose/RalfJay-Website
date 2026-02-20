@@ -925,19 +925,40 @@ body.spotify-page .footer {
         max-width: 150px;
     }
 
-    body.home-page .footer {
+    body.home-page .footer,
+    body.spotify-page .footer {
         padding: 10px 0 8px;
     }
 
-    body.home-page .footer-social {
+    body.home-page .footer-social,
+    body.spotify-page .footer-social {
         gap: 15px;
         margin-bottom: 8px;
     }
 
-    body.home-page .footer p {
+    body.home-page .footer p,
+    body.spotify-page .footer p {
         font-size: 10px;
     }
-    
+
+    body.spotify-page .page-section {
+        padding: 10px 0;
+    }
+
+    body.spotify-page .spotify-description {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    body.spotify-page .spotify-embed {
+        margin-bottom: 10px;
+    }
+
+    body.spotify-page .spotify-content .btn {
+        padding: 10px 25px;
+        font-size: 12px;
+    }
+
     .hero-title {
         font-size: clamp(40px, 10vw, 80px);
     }
@@ -1010,23 +1031,45 @@ body.spotify-page .footer {
         max-width: 130px;
     }
 
-    body.home-page .footer {
+    body.home-page .footer,
+    body.spotify-page .footer {
         padding: 8px 0 6px;
     }
 
-    body.home-page .footer-social {
+    body.home-page .footer-social,
+    body.spotify-page .footer-social {
         gap: 12px;
         margin-bottom: 6px;
     }
 
-    body.home-page .footer-social-icon img {
+    body.home-page .footer-social-icon img,
+    body.spotify-page .footer-social-icon img {
         width: 18px;
         height: 18px;
     }
 
-    body.home-page .footer p {
+    body.home-page .footer p,
+    body.spotify-page .footer p {
         font-size: 9px;
         margin-bottom: 2px;
+    }
+
+    body.spotify-page .spotify-description {
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+
+    body.spotify-page .spotify-embed {
+        margin-bottom: 8px;
+    }
+
+    body.spotify-page .spotify-content .btn {
+        padding: 8px 20px;
+        font-size: 11px;
+    }
+
+    body.spotify-page .spotify-embed iframe {
+        min-height: 350px;
     }
     
     .hero-buttons {

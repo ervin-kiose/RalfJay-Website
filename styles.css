@@ -937,19 +937,16 @@ body .contact-form {
         max-width: 150px;
     }
 
-    body.home-page .footer,
-    body.spotify-page .footer {
+    .footer {
         padding: 10px 0 8px;
     }
 
-    body.home-page .footer-social,
-    body.spotify-page .footer-social {
+    .footer-social {
         gap: 15px;
         margin-bottom: 8px;
     }
 
-    body.home-page .footer p,
-    body.spotify-page .footer p {
+    .footer p {
         font-size: 10px;
     }
 
@@ -1043,25 +1040,21 @@ body .contact-form {
         max-width: 130px;
     }
 
-    body.home-page .footer,
-    body.spotify-page .footer {
+    .footer {
         padding: 8px 0 6px;
     }
 
-    body.home-page .footer-social,
-    body.spotify-page .footer-social {
+    .footer-social {
         gap: 12px;
         margin-bottom: 6px;
     }
 
-    body.home-page .footer-social-icon img,
-    body.spotify-page .footer-social-icon img {
+    .footer-social-icon img {
         width: 18px;
         height: 18px;
     }
 
-    body.home-page .footer p,
-    body.spotify-page .footer p {
+    .footer p {
         font-size: 9px;
         margin-bottom: 2px;
     }

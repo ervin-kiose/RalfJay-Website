@@ -166,13 +166,10 @@ body.home-page .footer {
 
 .hero-video {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    transform: translate(-50%, -50%);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     filter: brightness(0.4);
 }
@@ -185,6 +182,10 @@ body.home-page .footer {
     height: 100%;
     background: linear-gradient(135deg, rgba(255, 0, 128, 0.3), rgba(0, 240, 255, 0.2));
     mix-blend-mode: multiply;
+}
+
+.video-container {
+    background: linear-gradient(135deg, #1a0a14, #0a1419);
 }
 
 .hero-content {
@@ -846,22 +847,35 @@ body.home-page .footer {
     }
 
     .nav-container {
-        padding: 10px 20px;
+        padding: 8px 15px;
         flex-wrap: wrap;
     }
 
     .nav-menu {
-        gap: 20px;
+        gap: 15px;
         font-size: 12px;
     }
 
     .nav-link {
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .logo-image {
-        height: 45px;
-        max-width: 170px;
+        height: 40px;
+        max-width: 150px;
+    }
+
+    body.home-page .footer {
+        padding: 10px 0 8px;
+    }
+
+    body.home-page .footer-social {
+        gap: 15px;
+        margin-bottom: 8px;
+    }
+
+    body.home-page .footer p {
+        font-size: 10px;
     }
     
     .hero-title {
@@ -914,16 +928,45 @@ body.home-page .footer {
 }
 
 @media (max-width: 480px) {
-    .nav-menu {
-        width: 100%;
-        justify-content: space-between;
-        gap: 10px;
-        margin-top: 10px;
+    body.home-page .nav-container {
+        flex-wrap: nowrap;
+        padding: 6px 10px;
     }
-    
+
+    .nav-menu {
+        width: auto;
+        justify-content: flex-end;
+        gap: 8px;
+        margin-top: 0;
+    }
+
     .nav-link {
-        font-size: 11px;
-        letter-spacing: 1px;
+        font-size: 10px;
+        letter-spacing: 0.5px;
+    }
+
+    .logo-image {
+        height: 35px;
+        max-width: 130px;
+    }
+
+    body.home-page .footer {
+        padding: 8px 0 6px;
+    }
+
+    body.home-page .footer-social {
+        gap: 12px;
+        margin-bottom: 6px;
+    }
+
+    body.home-page .footer-social-icon img {
+        width: 18px;
+        height: 18px;
+    }
+
+    body.home-page .footer p {
+        font-size: 9px;
+        margin-bottom: 2px;
     }
     
     .hero-buttons {

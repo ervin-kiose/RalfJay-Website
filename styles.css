@@ -1056,6 +1056,13 @@ body .contact-form {
         padding: 100px 0 40px;
     }
 
+    .hero-video {
+        width: 150%;
+        height: 150%;
+        top: -25%;
+        left: -25%;
+    }
+
     body.home-page {
         position: relative;
         min-height: 100vh;

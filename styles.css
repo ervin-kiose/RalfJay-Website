@@ -139,7 +139,7 @@ body.spotify-page .footer {
 .nav-container {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 8px 40px;
+    padding: 6px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -805,7 +805,7 @@ body.spotify-page .footer {
 /* Footer */
 .footer {
     background: var(--darker-bg);
-    padding: 12px 0 8px;
+    padding: 6px 0 4px;
     text-align: center;
     border-top: 1px solid rgba(255, 255, 255, 0.05);
 }
@@ -818,7 +818,7 @@ body.spotify-page .footer {
     display: flex;
     justify-content: center;
     gap: 20px;
-    margin-bottom: 9px;
+    margin-bottom: 5px;
     flex-wrap: wrap;
 }
 
@@ -847,7 +847,7 @@ body.spotify-page .footer {
 .footer p {
     color: var(--text-gray);
     font-size: 12px;
-    margin-bottom: 3px;
+    margin-bottom: 1px;
 }
 
 /* Animations */

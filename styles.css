@@ -639,7 +639,7 @@ body .contact-form {
 
 /* Spotify Section */
 .spotify {
-    background: var(--darker-bg);
+    background: transparent;
 }
 
 .spotify-content {
@@ -735,7 +735,7 @@ body .contact-form {
 
 /* Contact Section */
 .contact {
-    background: var(--darker-bg);
+    background: transparent;
 }
 
 .contact-content-page {

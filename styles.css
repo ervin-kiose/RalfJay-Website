@@ -91,6 +91,8 @@ body .contact-form {
 /* Biography page */
 .biography.page-section {
     padding-top: 80px;
+    min-height: auto;
+    padding-bottom: 20px;
 }
 
 .biography .language-selector {

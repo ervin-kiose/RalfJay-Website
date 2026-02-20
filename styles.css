@@ -50,6 +50,44 @@ body.home-page .footer {
     flex-shrink: 0;
 }
 
+/* Spotify page - fit in viewport without scrolling */
+body.spotify-page {
+    height: 100vh;
+    height: 100dvh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+body.spotify-page .navbar {
+    position: relative;
+    flex-shrink: 0;
+}
+
+body.spotify-page .page-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    min-height: 0;
+}
+
+body.spotify-page .spotify-embed iframe {
+    height: 300px;
+}
+
+body.spotify-page .spotify-description {
+    margin-bottom: 20px;
+}
+
+body.spotify-page .spotify-embed {
+    margin-bottom: 25px;
+}
+
+body.spotify-page .footer {
+    flex-shrink: 0;
+}
+
 .container {
     max-width: 1400px;
     margin: 0 auto;

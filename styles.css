@@ -67,7 +67,7 @@ body.spotify-page .navbar {
 body.spotify-page .page-section {
     flex: 1;
     display: flex;
-    padding: 20px 0;
+    padding: 15px 0 10px;
     min-height: 0;
 }
 
@@ -83,13 +83,14 @@ body.spotify-page .spotify-content {
 }
 
 body.spotify-page .spotify-description {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     flex-shrink: 0;
+    font-size: 15px;
 }
 
 body.spotify-page .spotify-embed {
     flex: 1;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     min-height: 0;
     overflow: hidden;
 }

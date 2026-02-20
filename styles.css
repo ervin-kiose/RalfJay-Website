@@ -1009,7 +1009,11 @@ body .contact-form {
     body.spotify-page .spotify-content .btn {
         padding: 8px 20px;
         font-size: 12px;
-        margin-bottom: 0;
+        margin-bottom: 15px;
+    }
+
+    body.spotify-page .footer {
+        margin-top: auto;
     }
 
     .hero-title {

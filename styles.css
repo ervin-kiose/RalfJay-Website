@@ -110,8 +110,13 @@ body .contact-form {
 }
 
 .biography .bio-stats {
-    margin-top: 20px;
-    padding-top: 20px;
+    margin-top: 15px;
+    padding-top: 15px;
+    gap: 20px;
+}
+
+.biography .stat-number {
+    margin-bottom: 5px;
 }
 
 .container {

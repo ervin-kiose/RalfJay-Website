@@ -26,6 +26,29 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Home page - no scroll, everything fits in viewport */
+body.home-page {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+body.home-page .navbar {
+    position: relative;
+    flex-shrink: 0;
+}
+
+body.home-page .hero {
+    flex: 1;
+    height: auto;
+    margin-top: 0;
+}
+
+body.home-page .footer {
+    flex-shrink: 0;
+}
+
 .container {
     max-width: 1400px;
     margin: 0 auto;

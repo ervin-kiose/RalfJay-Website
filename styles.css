@@ -660,10 +660,15 @@ body .contact-form {
 }
 
 /* Events Section */
+.events.page-section {
+    padding-top: 80px;
+    padding-bottom: 15px;
+}
+
 .events-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 40px;
+    gap: 25px;
 }
 
 .event-card {

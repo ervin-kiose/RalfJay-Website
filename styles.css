@@ -734,6 +734,17 @@ body .contact-form {
     margin-bottom: 5px;
 }
 
+.event-artists {
+    margin-top: 12px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    background: linear-gradient(135deg, #FF0080, #00F0FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
 /* Contact Section */
 .contact {
     background: transparent;

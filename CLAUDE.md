@@ -47,7 +47,8 @@ Designed by Ervin Kiose. Deployed on Vercel with auto-deploy on push.
 - **Contact watermark:** lower opacity (0.15 vs 0.25)
 
 ## Hero (index.html)
-- Full-screen video background (`hero-video.mp4`)
+- Full-screen video background: `hero-video.mp4` (1350x1080) on desktop/tablet/landscape, `hero-video-mobile.mp4` (vertical 540x960, ~3 MB, no audio) on upright phones, picked by a `<source media="(max-width: 768px) and (orientation: portrait)">` listed first
+- The mobile video was compressed from a 36 MB phone .MOV with ffmpeg (`-an -vf scale=540:960 -crf 30 -movflags +faststart`); keep new hero videos in that size range
 - Video: autoplay, muted, loop, playsinline
 - Pink/cyan gradient overlay on video (`mix-blend-mode: multiply`)
 - Hero logo/subtitle currently commented out
@@ -55,7 +56,7 @@ Designed by Ervin Kiose. Deployed on Vercel with auto-deploy on push.
 - Home page footer: `position: absolute; bottom: 0` to overlay the video
 
 ## Mobile-Specific (768px breakpoint)
-- **Home page:** video uses `object-fit: contain` with `transform: scale(1.5) translateY(-5%)` for controlled zoom; footer is `position: fixed` at bottom
+- **Home page:** upright phones play the vertical video with `object-fit: cover` and no transform; the older `object-fit: contain` + `transform: scale(1.5) translateY(-5%)` zoom only applies in landscape at this breakpoint (landscape video); footer is `position: fixed` at bottom
 - **Spotify page:** footer is `position: fixed` at bottom; section uses `flex: none` to prevent stretching; Spotify embed uses dark theme (`&theme=0`)
 - **Contact page:** reduced font sizes, input padding, textarea min-height (80px), form gaps (8px); footer is `position: fixed` at bottom
 - **All pages:** nav stays horizontal (no hamburger), responsive font/padding reductions at 768px and 480px

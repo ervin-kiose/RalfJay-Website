@@ -1165,6 +1165,14 @@ body .contact-form {
         transform: scale(1.5) translateY(-5%);
     }
 
+    /* Upright phones play the vertical video, which already fits the screen */
+    @media (orientation: portrait) {
+        .hero-video {
+            object-fit: cover;
+            transform: none;
+        }
+    }
+
     body.home-page {
         position: relative;
         min-height: 100vh;

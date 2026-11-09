@@ -20,7 +20,7 @@ Designed by Ervin Kiose. Deployed on Vercel with auto-deploy on push.
 | `index.html` | Home | Full-screen video hero background, footer with social links |
 | `biography.html` | Biography | Bio text with multi-language switcher (flag buttons), stats |
 | `spotify.html` | Spotify | Spotify embeds |
-| `events.html` | Events | Event cards grid: 1 upcoming (ADE Showcase) + 3 past events |
+| `events.html` | Events | Event cards grid: 4 past events (ADE Showcase newest), no upcoming ones right now |
 | `contact.html` | Contact | Contact form + social media icons grid |
 
 ## Design System
@@ -97,7 +97,7 @@ Designed by Ervin Kiose. Deployed on Vercel with auto-deploy on push.
 - **Text area:** compact padding (15px 20px), smaller fonts (title 20px, date/location 13px)
 - **Grid gap:** 25px
 - **Cards (current):**
-  1. ADE Showcase - `ade-2026-tequila-club.png` (Ralf Jay solo poster) - UPCOMING
+  1. ADE Showcase - `ade-2026-tequila-club.png` (Ralf Jay solo poster) - PAST
      - Date: October 21, 2026, 23:00-05:00 (Amsterdam Dance Event)
      - Venue: The Tequila Club, Korte Leidsedwarsstraat 28, Amsterdam
      - Artists: RALF JAY · HEAD STUDIOS x MERITOCRACY (Head Studios x Meritocracy Records showcase / industry mixer, free entry, two rooms)
